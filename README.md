@@ -1,24 +1,8 @@
-# STARTER-jpa02
+# jpa02-DerekKirschbaum
 
-* TODO: Change the title of this README 
-  in the text `# STARTER-jpa02` above
-  to match the name of your repo, i. e., `jpa02-yourgithubid`, then delete
-  this TODO item.
+Repo: https://github.com/ucsb-cs156-f26/jpa02-DerekKirschbaum
 
-* TODO: Correct the links to repo below, 
-  then delete this TODO.  Replace it with 
-  a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-f26/jpa02-cgaucho
-
-Repo: https://github.com/ucsb-cs156-f26/STARTER-jpa02
-
-* TODO: Correct the "deployed at" link to app on Dokku
-  then delete this TODO.  Replace it with 
-  a link to your running app on Dokku, e.g.
-  https://jpa02-cgaucho.dokku-14.cs.ucsb.edu
-
-
-Deployed at: https://jpa02-replace-me.dokku-xx.cs.ucsb.edu
+Deployed at: https://jpa02-derekkirschbaum.dokku-00.cs.ucsb.edu
 
 
 # About this repo

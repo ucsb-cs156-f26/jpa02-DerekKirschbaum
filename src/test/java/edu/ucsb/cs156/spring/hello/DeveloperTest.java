@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Modifier;
+import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
@@ -22,12 +23,19 @@ public class DeveloperTest {
 
     @Test
     public void getName_returns_correct_name() {
-        // TODO: Replace Chris G. with your name as shown on
-        // <https://bit.ly/cs156-f26-teams>
-        assertEquals("Chris G.", Developer.getName());
+        assertEquals("Derek", Developer.getName());
     }
 
-    // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
-    // 100% mutation coverage (all mutants timed out or killed)
+    @Test
+    public void getGithubId_returns_correct_id() {
+        assertEquals("DerekKirschbaum", Developer.getGithubId());
+    }
+
+    @Test
+    public void getTeam_returns_correct_name_and_members() {
+        Team team = Developer.getTeam();
+        assertEquals("f26-00", team.getName());
+        assertEquals(List.of("Daniel", "Derek", "Keigo", "Phill", "Wendy", "Victor"), team.getMembers());
+    }
 
 }
