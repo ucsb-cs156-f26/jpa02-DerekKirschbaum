@@ -46,7 +46,7 @@ public class HelloControllerTest {
                 <ul>
                   <li>Name: Derek</li>
                   <li>Github ID: <a href="https://github.com/DerekKirschbaum">DerekKirschbaum</a></li>
-                  <li>Team: <a href="/team">f26-00</a></li>
+                  <li>Team: <a href="/team">staff</a></li>
                 </ul>
                 """;
         assertEquals(expectedContent, actualContent);
@@ -59,7 +59,7 @@ public class HelloControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
                 .andExpect(content().json("""
-                        {"name":"f26-00","members":["Daniel","Derek","Keigo","Phill","Wendy","Victor"]}
+                        {"name":"staff","members":["Daniel","Derek","Keigo","Phill","Wendy","Victor"]}
                         """, org.springframework.test.json.JsonCompareMode.STRICT));
     }
 

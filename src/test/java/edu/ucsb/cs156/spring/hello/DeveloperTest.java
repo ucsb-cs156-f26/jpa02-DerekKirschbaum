@@ -34,7 +34,7 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_correct_name_and_members() {
         Team team = Developer.getTeam();
-        assertEquals("f26-00", team.getName());
+        assertEquals("staff", team.getName());
         assertEquals(List.of("Daniel", "Derek", "Keigo", "Phill", "Wendy", "Victor"), team.getMembers());
     }
 
